@@ -1,0 +1,141 @@
+---
+title: "lesson4"
+format: html
+---
+
+# Lesson 4: Music & Sound Loops – Make It Play!
+
+**Theme:** *"Code can create rhythm – let's make your sprite sing and dance!"*
+
+---
+
+## 🧠 Learning Focus: The Conscious Competence Cycle
+
+| Stage | Name | Description | Example in Scratch Coding |
+|-------|------|-------------|----------------------------|
+| 1️⃣ | **Unconscious Incompetence** | The learner doesn't know what they don't know. | A child tries to make music by dragging sound blocks one after the other manually. |
+| 2️⃣ | **Conscious Incompetence** | The learner is aware of the concept but struggles to apply it correctly. | They use a `forever` loop with a sound but forget the `wait` → it sounds messy. |
+| 3️⃣ | **Conscious Competence** | The learner uses the loop correctly but must focus and follow steps. | They carefully build a music beat using `repeat`, `wait`, and `play sound`. |
+| 4️⃣ | **Unconscious Competence** | The learner applies the concept fluently and creatively. | They mix sound, timing, and events naturally and even teach others. |
+
+**Teacher tip:** Highlight mistakes as normal and useful. Celebrate when students recognize and fix them – that’s learning in action!
+
+---
+
+## Goal
+
+Introduce **sound blocks** and reinforce the use of **loops** by creating music or rhythmic animations in Scratch. Students will experiment with sound effects and loops to build fun, interactive music machines or animations.
+
+---
+
+## Structure (1.5 hours)
+
+### 1. Welcome & Sound Demo (10 min)
+
+::: {.callout-note title="Teacher Instructions"}
+- Ask: “What did we do last time with events?”
+- Demo a sprite that makes sounds when clicked or plays music on loop.
+- Ask: “Can code make music?” → "Yes, with sound blocks!"
+:::
+
+![Lesson4Step1](./images/Lesson4Step1.png){fig-align="center" width="60%"}
+
+---
+
+### 2. Guided Build – Looping Sounds (20 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Guide students through building a sprite that loops a sound forever or repeats it a set number of times.
+:::
+
+#### 🔧 Option A: Forever Sound Loop
+
+```
+when green flag clicked
+forever
+  play sound [meow]
+  wait 0.5 seconds
+```
+
+#### 🔧 Option B: Repeated Beats
+
+```
+when green flag clicked
+repeat 8
+  play sound [drum]
+  wait 0.25 seconds
+```
+
+![Lesson4Step2](./images/Lesson4Step2.png){fig-align="center" width="60%"}
+
+---
+
+### 3. Movement Game: Clap-Loop (10 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Play a physical looping game:
+
+- Form a circle. One child claps a rhythm (e.g. clap–clap–pause).
+- Everyone repeats it like a loop.
+- Change leaders every 30 seconds.
+
+Explain: "You just looped a beat – like a forever block in Scratch!"
+:::
+
+![Lesson4Step3](./images/Lesson4Step3.png){fig-align="center" width="60%"}
+
+---
+
+### 4. Mini Challenge – Make a Music Machine (25 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Let students build a project using sounds + loops:
+
+- A band (each sprite plays a different looped sound)
+- A beatbox machine (click different sprites to trigger sounds)
+- A music/dance animation
+:::
+
+#### 🔧 Optional: Add Events
+
+```
+when this sprite clicked
+play sound [bass drum]
+```
+
+```
+when [space] key pressed
+start sound [loop beat]
+```
+
+![Lesson4Step4](./images/Lesson4Step4.png){fig-align="center" width="60%"}
+
+---
+
+### 5. Showcase & Listening Party (15 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Turn the classroom into a listening room:
+
+- Let students walk around with headphones or take turns presenting their music machine or beat.
+- Ask each child: “How did you use a loop in your song?”
+:::
+
+![Lesson4Step5](./images/Lesson4Step5.png){fig-align="center" width="60%"}
+
+---
+
+### 6. Wrap-Up & What’s Next (10 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Discuss:
+
+- What was fun about using sound?
+- Can you imagine creating a sound-based game?
+
+Preview: “Next time we’ll build simple **games** where you use scores and reactions!”
+:::
+
+### ✏️ Optional Homework
+
+- Ask students to draw a musical instrument or machine they’d like to code in Scratch.
