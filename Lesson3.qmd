@@ -1,0 +1,155 @@
+---
+title: "Lesson3"
+format: html
+---
+# Lesson 3: Interactivity with Events – Make It React!
+
+**Theme:** *"Your program listens and reacts – just like you do!"*
+
+## Goal
+
+Introduce the concept of **events** in Scratch using the Conscious Competence model. Students will learn how to make their projects respond to input such as clicks or keys. By the end of the lesson, each student creates a project where a sprite reacts to interaction.
+
+---
+
+## Structure (1.5 hours)
+
+### 1. Welcome & Recap (10 min)
+
+::: {.callout-note title="Teacher Instructions"}
+- Ask the group: “What did we make with loops last time?”
+- Open Scratch and show a quick demo: when you click a sprite, it changes color or says something.
+- Ask: “How did the sprite know what to do when I clicked?”
+:::
+
+![Step 1 – Welcome & Recap](./images/Lesson3Step1.png){fig-align="center" width="60%"}
+
+---
+
+### 2. Guided Build – Click Reaction (15 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Guide students step-by-step to build a sprite that reacts when clicked.
+
+Start simple:
+1. Create a sprite or use the cat.
+2. Add the following blocks to make the sprite talk:
+:::
+
+#### 🔧 Code: Sprite Says Something When Clicked
+
+```
+when this sprite clicked
+say [Hello!] for 2 seconds
+```
+
+::: {.callout-tip title="Variation"}
+Let students experiment with visual effects:
+
+```
+when this sprite clicked
+change color effect by 25
+```
+
+Encourage creativity: try different looks, sounds, and messages.
+:::
+
+![Step 2 – Guided Build](./images/Lesson3Step2.png){fig-align="center" width="60%"}
+
+---
+
+### 3. Break & Reaction Game (10 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Use this active break to reinforce the **event-driven thinking** from coding. The game simulates how a program waits for a specific trigger before acting.
+
+**Game: Robot Simon Says**
+
+1. One student volunteers as the **Robot Master** (or you can be the first one).
+2. They give commands like:
+   - “Simon says jump!”
+   - “Simon says touch your nose!”
+   - “Spin around!”
+3. The rest of the class should **only follow commands that begin with "Simon says"**.
+
+If someone follows a command without "Simon says," they sit down or freeze for a turn.
+
+After 2–3 minutes, rotate the Robot Master once or twice.
+
+**Link it back to code:**
+- “Your Scratch sprite only moves or reacts when a specific **event** happens — like being clicked or a key being pressed.”
+- “Just like you only react when you hear the right command!”
+
+You can even draw the parallel on the board:
+
+```
+when [space key] pressed
+say [Jump!]
+```
+
+vs.
+
+(no event → no reaction)
+:::
+
+![Step 3 – Break Game](./images/Lesson3Step3.png){fig-align="center" width="60%"}
+
+---
+
+### 4. Mini Challenge (25 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Let each student choose one challenge to build on what they learned:
+
+- A pet that talks when clicked
+- A sprite that changes color or costume when clicked
+- A soundboard that plays different sounds when clicked
+
+Encourage independence, but walk around to assist and challenge students.
+:::
+
+#### 🔧 Optional: Add Key Events (For Fast Learners)
+
+```
+when [space] key pressed
+say [Jump!] for 1 seconds
+```
+
+```
+when [right arrow] key pressed
+change x by 10
+```
+
+![Step 4 – Mini Challenge](./images/Lesson3Step4.png){fig-align="center" width="60%"}
+
+---
+
+### 5. Gallery Walk & Share (15 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Organize a quiet gallery walk instead of front-of-class presentations:
+
+- Let students walk around and try each other's projects.
+- Pair up and ask them to explain what they made and how the interaction works.
+:::
+
+![Step 5 – Gallery Walk](./images/Lesson3Step5.png){fig-align="center" width="60%"}
+
+---
+
+### 6. Closing & Next Step (10 min)
+
+::: {.callout-note title="Teacher Instructions"}
+Wrap up the session:
+
+- Ask: “What kind of things can events do?”
+- Ask: “What would you like your sprite to react to next time?”
+- Tease next lesson: “We’ll make a sound machine or mini-music game!”
+:::
+
+### ✏️ Optional Homework
+
+- Have students draw or describe a sprite that reacts to:
+  - Touch
+  - Sound
+  - Key presses
