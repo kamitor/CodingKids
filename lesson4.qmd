@@ -1,54 +1,84 @@
----
-title: "lesson4"
-format: html
----
-
-# Lesson 4: Music & Sound Loops – Make It Play!
-
-**Theme:** *"Code can create rhythm – let's make your sprite sing and dance!"*
-
+title: "Lesson 4: The Scratch Sound Show"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: false
 ---
 
-## 🧠 Learning Focus: The Conscious Competence Cycle
+# 🎵 Lesson 4: The Scratch Sound Show
 
-| Stage | Name | Description | Example in Scratch Coding |
-|-------|------|-------------|----------------------------|
-| 1️⃣ | **Unconscious Incompetence** | The learner doesn't know what they don't know. | A child tries to make music by dragging sound blocks one after the other manually. |
-| 2️⃣ | **Conscious Incompetence** | The learner is aware of the concept but struggles to apply it correctly. | They use a `forever` loop with a sound but forget the `wait` → it sounds messy. |
-| 3️⃣ | **Conscious Competence** | The learner uses the loop correctly but must focus and follow steps. | They carefully build a music beat using `repeat`, `wait`, and `play sound`. |
-| 4️⃣ | **Unconscious Competence** | The learner applies the concept fluently and creatively. | They mix sound, timing, and events naturally and even teach others. |
-
-**Teacher tip:** Highlight mistakes as normal and useful. Celebrate when students recognize and fix them – that’s learning in action!
-
----
+**Theme:** *"Code is your instrument — rehearse it, remix it, perform it!"*
 
 ## Goal
 
-Introduce **sound blocks** and reinforce the use of **loops** by creating music or rhythmic animations in Scratch. Students will experiment with sound effects and loops to build fun, interactive music machines or animations.
+Students will explore how to create rhythm and performance using Scratch sound blocks and loops. They will learn to control timing, build patterns, and ultimately present their own mini-sound projects.
+
+## Learning Model: Conscious Competence
+
+| Stage | Name | Description |
+|-------|------|-------------|
+| 1️⃣ | Unconscious Incompetence | Spamming sound blocks without rhythm |
+| 2️⃣ | Conscious Incompetence | Trying loops, but timing is off |
+| 3️⃣ | Conscious Competence | Building sound patterns with loops and delays |
+| 4️⃣ | Unconscious Competence | Creating and remixing sound behaviors freely |
 
 ---
 
-## Structure (1.5 hours)
+## 🟡 Stage 1: Recap & Rhythm Warm-Up (15 min)
 
-### 1. Welcome & Sound Demo (10 min)
+**Purpose:** Reconnect with prior lesson on events, spark curiosity with a rhythm game, and set up the idea of sound-based coding.
 
-::: {.callout-note title="Teacher Instructions"}
-- Ask: “What did we do last time with events?”
-- Demo a sprite that makes sounds when clicked or plays music on loop.
-- Ask: “Can code make music?” → "Yes, with sound blocks!"
-:::
+### 🎯 Learning Objectives
 
-![Lesson4Step1](./images/Lesson4Step1.png){fig-align="center" width="60%"}
+- Recall what events do in Scratch.
+- Understand that rhythm needs timing.
+- Experience how code can behave like music — or like noise.
 
 ---
 
-### 2. Guided Build – Looping Sounds (20 min)
+### 🔁 Recap of Event Blocks
 
-::: {.callout-note title="Teacher Instructions"}
-Guide students through building a sprite that loops a sound forever or repeats it a set number of times.
+::: {.callout-note title="Ask the Class"}
+- “What happens when we click a sprite in Scratch?”
+- “What block do we use to make the sprite jump or talk?”
+- “How can we make it react with sound?”
+
+**Remind them:** Last time, they used `when clicked` and `when [key] pressed` to control how sprites react.
 :::
 
-#### 🔧 Option A: Forever Sound Loop
+---
+
+### 🎵 Echo Maestro Game
+
+::: {.callout-note title="Game Instructions"}
+1. One student (or teacher) is the **Maestro**.
+2. They create a short sound or rhythm (e.g. Clap–Clap–Stomp).
+3. The class repeats the pattern in sync.
+4. Swap Maestro every 2–3 rounds.
+
+**Explain afterward:**
+- “What happened when someone went off beat?”
+- “What made it easier to follow?”
+- “That's how our sprite feels if we forget timing in code.”
+:::
+
+---
+
+### 🖥️ Live Scratch Demo
+
+::: {.callout-note title="Show Bad Loop"}
+Open Scratch and add this to the cat:
+
+```
+when green flag clicked
+forever
+  play sound [meow]
+```
+
+Ask: “What does this sound like? Is it a song?”
+
+Then fix it:
 
 ```
 when green flag clicked
@@ -57,7 +87,32 @@ forever
   wait 0.5 seconds
 ```
 
-#### 🔧 Option B: Repeated Beats
+Ask: “What changed? Why does it sound better?”
+
+Finish with: “Now let’s code our own rhythm, like real composers!”
+:::
+
+![Stage 1 – Rhythm Demo](./images/Lesson4Step1.png){fig-align="center" width="60%"}
+````
+
+## 🟡 Stage 2: Guided Scratch Rehearsal (20 min)
+
+**Purpose:** Build a structured rhythm loop in Scratch using `forever`, `repeat`, and `wait` blocks.
+
+### 🎯 Learning Objectives
+
+- Understand how loops and timing create rhythm.
+- Practice Scratch syntax to control repetition and delay.
+- Begin debugging and adjusting musical output.
+
+---
+
+### 🧑‍🏫 Teacher-Led Coding Demo
+
+::: {.callout-note title="Build a Loop Together"}
+Open Scratch and guide the class step-by-step:
+
+**Option A: Repeating Drum Beat**
 
 ```
 when green flag clicked
@@ -66,37 +121,61 @@ repeat 8
   wait 0.25 seconds
 ```
 
-![Lesson4Step2](./images/Lesson4Step2.png){fig-align="center" width="60%"}
+**Option B: Forever Looping Snare**
+
+```
+when green flag clicked
+forever
+  play sound [snare drum]
+  wait 0.4 seconds
+```
+
+Ask students:
+- “What happens if we forget the `wait`?”
+- “Can you hear the beat or is it too fast?”
+:::
 
 ---
 
-### 3. Movement Game: Clap-Loop (10 min)
+### 🛠️ Student Activity
 
-::: {.callout-note title="Teacher Instructions"}
-Play a physical looping game:
+::: {.callout-note title="Try It Yourself"}
+Students build their own version using any of the following:
 
-- Form a circle. One child claps a rhythm (e.g. clap–clap–pause).
-- Everyone repeats it like a loop.
-- Change leaders every 30 seconds.
+- `repeat` with a fixed number of beats
+- `forever` for continuous rhythms
+- Change sound type, wait time, and number of loops
 
-Explain: "You just looped a beat – like a forever block in Scratch!"
+Encourage students to:
+- Test different delays (`0.2`, `0.5`, `1`)
+- Combine sounds into short sequences
 :::
 
-![Lesson4Step3](./images/Lesson4Step3.png){fig-align="center" width="60%"}
+![Stage 2 – Scratch Rehearsal](./images/Lesson4Step2.png){fig-align="center" width="60%"}
+
+## 🟡 Stage 3: Creative Sound Projects (25 min)
+
+**Purpose:** Students choose and build a sound-based mini-project.
+
+### 🎯 Learning Objectives
+
+- Apply loops, sounds, and timing in a self-directed creation.
+- Combine input (clicks or key presses) with sound playback.
+- Experiment and iterate like young musicians and coders.
 
 ---
 
-### 4. Mini Challenge – Make a Music Machine (25 min)
+### 🧩 Project Options
 
-::: {.callout-note title="Teacher Instructions"}
-Let students build a project using sounds + loops:
-
-- A band (each sprite plays a different looped sound)
-- A beatbox machine (click different sprites to trigger sounds)
-- A music/dance animation
+::: {.callout-note title="Let Students Choose One"}
+- **Scratch Band:** Each sprite plays a different looped instrument.
+- **Beatbox Machine:** Click on different sprites to trigger different sounds.
+- **Interactive Instrument:** Press keys to play sounds with visual effects.
 :::
 
-#### 🔧 Optional: Add Events
+---
+
+### 🧠 Add Interactions (Optional)
 
 ```
 when this sprite clicked
@@ -104,38 +183,119 @@ play sound [bass drum]
 ```
 
 ```
-when [space] key pressed
+when [space key] pressed
 start sound [loop beat]
 ```
 
-![Lesson4Step4](./images/Lesson4Step4.png){fig-align="center" width="60%"}
+Encourage layering:
+- Background beat with a `forever` loop
+- Click or key-activated melodies or effects
 
 ---
 
-### 5. Showcase & Listening Party (15 min)
+### 🛠️ Creativity Prompts
 
-::: {.callout-note title="Teacher Instructions"}
-Turn the classroom into a listening room:
-
-- Let students walk around with headphones or take turns presenting their music machine or beat.
-- Ask each child: “How did you use a loop in your song?”
+::: {.callout-tip title="Encourage Remixing"}
+- “What happens if two sounds play together?”
+- “Can your sprite ‘dance’ while it plays music?”
+- “Can you change costume when a sound plays?”
 :::
 
-![Lesson4Step5](./images/Lesson4Step5.png){fig-align="center" width="60%"}
+![Stage 3 – Creative Projects](./images/Lesson4Step3.png){fig-align="center" width="60%"}
+
+
+## 🟡 Stage 4: The Scratch Sound Show (15 min)
+
+**Purpose:** Showcase student work in a structured but fun “performance” or “gallery walk.”
+
+### 🎯 Learning Objectives
+
+- Reflect on creative choices through presentation.
+- Celebrate student effort, experimentation, and rhythm.
+- Practice giving and receiving positive peer feedback.
 
 ---
 
-### 6. Wrap-Up & What’s Next (10 min)
+### 🎭 Presentation Options
 
-::: {.callout-note title="Teacher Instructions"}
-Discuss:
+::: {.callout-note title="Option 1: Gallery Walk"}
+- Students leave their projects open.
+- Walk around and try each other’s Scratch sound machines.
+- Use sticky notes or “clap if you like it” feedback.
 
-- What was fun about using sound?
-- Can you imagine creating a sound-based game?
-
-Preview: “Next time we’ll build simple **games** where you use scores and reactions!”
 :::
+
+::: {.callout-note title="Option 2: Stage Performance"}
+- Select volunteers to plug in or present on the main screen.
+- Introduce the performance: “Here’s my beat machine!”
+- Play 30 seconds of each.
+
+:::
+
+---
+
+### 💬 Feedback Prompts
+
+::: {.callout-tip title="Ask or Post Questions Like:"}
+- “What sounds did you use?”
+- “Did you use `repeat` or `forever`?”
+- “What would you add next?”
+- “What was the trickiest part?”
+:::
+
+![Stage 4 – Showcase](./images/Lesson4Step4.png){fig-align="center" width="60%"}
+
+
+## 🟡 Stage 5: Reflection & Wrap-Up (10 min)
+
+**Purpose:** Solidify learning and set up for next lesson.
+
+### 🎯 Learning Objectives
+
+- Reflect on creative problem-solving with sound and timing.
+- Recognize how coding builds skill through rhythm, logic, and iteration.
+- End the session with pride, confidence, and anticipation.
+
+---
+
+### 🗣️ Group Reflection
+
+::: {.callout-note title="Ask the Class"}
+- “What was your favorite sound or beat you made?”
+- “What did your code do that surprised you?”
+- “What was hard — and how did you solve it?”
+- “Did someone else’s project inspire you?”
+:::
+
+---
+
+### 🔁 Connect to Mastery
+
+::: {.callout-tip title="Say This to the Class"}
+"Today you weren’t just clicking blocks — you were coding like musicians. You turned chaos into rhythm, sound into logic, and Scratch into your own instrument."
+
+"You rehearsed. You adjusted. You made choices. That’s what real creators do — and it’s exactly how game makers, artists, and engineers work."
+
+"Every sound you made today started with a blank screen. And now, it’s something only you could’ve made."
+:::
+
+---
+
+### 🚀 Next Step: Game Designers Assemble
+
+> "Next week, we move from shows to **games**. You’ll build something that reacts, scores, challenges, and wins. All the skills you’ve used today — loops, events, sound — will power your first real game."
+
+---
 
 ### ✏️ Optional Homework
 
-- Ask students to draw a musical instrument or machine they’d like to code in Scratch.
+Draw or describe your game idea:
+- What’s the goal?
+- What makes it fun?
+- What sounds or reactions does it have?
+
+:::
+Bring your idea next time — it’s time to **code your first game.**
+:::
+
+

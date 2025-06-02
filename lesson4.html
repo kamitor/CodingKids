@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>lesson4</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="lesson4_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lesson4_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="lesson4_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="lesson4_files/libs/quarto-html/popper.min.js"></script>
+<script src="lesson4_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="lesson4_files/libs/quarto-html/anchor.min.js"></script>
+<link href="lesson4_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lesson4_files/libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="lesson4_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="lesson4_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="lesson4_files/libs/bootstrap/bootstrap-c55efa1fd218a545ebab9e5bcab7af02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<p>title: “Lesson 4: The Scratch Sound Show” format: html: theme: cosmo toc: true number-sections: false —</p>
+<section id="lesson-4-the-scratch-sound-show" class="level1">
+<h1>🎵 Lesson 4: The Scratch Sound Show</h1>
+<p><strong>Theme:</strong> <em>“Code is your instrument — rehearse it, remix it, perform it!”</em></p>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>Students will explore how to create rhythm and performance using Scratch sound blocks and loops. They will learn to control timing, build patterns, and ultimately present their own mini-sound projects.</p>
+</section>
+<section id="learning-model-conscious-competence" class="level2">
+<h2 class="anchored" data-anchor-id="learning-model-conscious-competence">Learning Model: Conscious Competence</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 23%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Stage</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1️⃣</td>
+<td>Unconscious Incompetence</td>
+<td>Spamming sound blocks without rhythm</td>
+</tr>
+<tr class="even">
+<td>2️⃣</td>
+<td>Conscious Incompetence</td>
+<td>Trying loops, but timing is off</td>
+</tr>
+<tr class="odd">
+<td>3️⃣</td>
+<td>Conscious Competence</td>
+<td>Building sound patterns with loops and delays</td>
+</tr>
+<tr class="even">
+<td>4️⃣</td>
+<td>Unconscious Competence</td>
+<td>Creating and remixing sound behaviors freely</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="stage-1-recap-rhythm-warm-up-15-min" class="level2">
+<h2 class="anchored" data-anchor-id="stage-1-recap-rhythm-warm-up-15-min">🟡 Stage 1: Recap &amp; Rhythm Warm-Up (15 min)</h2>
+<p><strong>Purpose:</strong> Reconnect with prior lesson on events, spark curiosity with a rhythm game, and set up the idea of sound-based coding.</p>
+<section id="learning-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives">🎯 Learning Objectives</h3>
+<ul>
+<li>Recall what events do in Scratch.</li>
+<li>Understand that rhythm needs timing.</li>
+<li>Experience how code can behave like music — or like noise.</li>
+</ul>
+<hr>
+</section>
+<section id="recap-of-event-blocks" class="level3">
+<h3 class="anchored" data-anchor-id="recap-of-event-blocks">🔁 Recap of Event Blocks</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Ask the Class">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ask the Class
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>“What happens when we click a sprite in Scratch?”</li>
+<li>“What block do we use to make the sprite jump or talk?”</li>
+<li>“How can we make it react with sound?”</li>
+</ul>
+<p><strong>Remind them:</strong> Last time, they used <code>when clicked</code> and <code>when [key] pressed</code> to control how sprites react.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="echo-maestro-game" class="level3">
+<h3 class="anchored" data-anchor-id="echo-maestro-game">🎵 Echo Maestro Game</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Game Instructions">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Game Instructions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>One student (or teacher) is the <strong>Maestro</strong>.</li>
+<li>They create a short sound or rhythm (e.g.&nbsp;Clap–Clap–Stomp).</li>
+<li>The class repeats the pattern in sync.</li>
+<li>Swap Maestro every 2–3 rounds.</li>
+</ol>
+<p><strong>Explain afterward:</strong> - “What happened when someone went off beat?” - “What made it easier to follow?” - “That’s how our sprite feels if we forget timing in code.”</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="live-scratch-demo" class="level3">
+<h3 class="anchored" data-anchor-id="live-scratch-demo">🖥️ Live Scratch Demo</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Show Bad Loop">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Show Bad Loop
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Open Scratch and add this to the cat:</p>
+<pre><code>when green flag clicked
+forever
+  play sound [meow]</code></pre>
+<p>Ask: “What does this sound like? Is it a song?”</p>
+<p>Then fix it:</p>
+<pre><code>when green flag clicked
+forever
+  play sound [meow]
+  wait 0.5 seconds</code></pre>
+<p>Ask: “What changed? Why does it sound better?”</p>
+<p>Finish with: “Now let’s code our own rhythm, like real composers!”</p>
+</div>
+</div>
+<p><img src="./images/Lesson4Step1.png" class="img-fluid quarto-figure quarto-figure-center" style="width:60.0%" alt="Stage 1 – Rhythm Demo"> ````</p>
+</section>
+</section>
+<section id="stage-2-guided-scratch-rehearsal-20-min" class="level2">
+<h2 class="anchored" data-anchor-id="stage-2-guided-scratch-rehearsal-20-min">🟡 Stage 2: Guided Scratch Rehearsal (20 min)</h2>
+<p><strong>Purpose:</strong> Build a structured rhythm loop in Scratch using <code>forever</code>, <code>repeat</code>, and <code>wait</code> blocks.</p>
+<section id="learning-objectives-1" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives-1">🎯 Learning Objectives</h3>
+<ul>
+<li>Understand how loops and timing create rhythm.</li>
+<li>Practice Scratch syntax to control repetition and delay.</li>
+<li>Begin debugging and adjusting musical output.</li>
+</ul>
+<hr>
+</section>
+<section id="teacher-led-coding-demo" class="level3">
+<h3 class="anchored" data-anchor-id="teacher-led-coding-demo">🧑‍🏫 Teacher-Led Coding Demo</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Build a Loop Together">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Build a Loop Together
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Open Scratch and guide the class step-by-step:</p>
+<p><strong>Option A: Repeating Drum Beat</strong></p>
+<pre><code>when green flag clicked
+repeat 8
+  play sound [drum]
+  wait 0.25 seconds</code></pre>
+<p><strong>Option B: Forever Looping Snare</strong></p>
+<pre><code>when green flag clicked
+forever
+  play sound [snare drum]
+  wait 0.4 seconds</code></pre>
+<p>Ask students: - “What happens if we forget the <code>wait</code>?” - “Can you hear the beat or is it too fast?”</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="student-activity" class="level3">
+<h3 class="anchored" data-anchor-id="student-activity">🛠️ Student Activity</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Try It Yourself">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Try It Yourself
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Students build their own version using any of the following:</p>
+<ul>
+<li><code>repeat</code> with a fixed number of beats</li>
+<li><code>forever</code> for continuous rhythms</li>
+<li>Change sound type, wait time, and number of loops</li>
+</ul>
+<p>Encourage students to: - Test different delays (<code>0.2</code>, <code>0.5</code>, <code>1</code>) - Combine sounds into short sequences</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/Lesson4Step2.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Stage 2 – Scratch Rehearsal</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="stage-3-creative-sound-projects-25-min" class="level2">
+<h2 class="anchored" data-anchor-id="stage-3-creative-sound-projects-25-min">🟡 Stage 3: Creative Sound Projects (25 min)</h2>
+<p><strong>Purpose:</strong> Students choose and build a sound-based mini-project.</p>
+<section id="learning-objectives-2" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives-2">🎯 Learning Objectives</h3>
+<ul>
+<li>Apply loops, sounds, and timing in a self-directed creation.</li>
+<li>Combine input (clicks or key presses) with sound playback.</li>
+<li>Experiment and iterate like young musicians and coders.</li>
+</ul>
+<hr>
+</section>
+<section id="project-options" class="level3">
+<h3 class="anchored" data-anchor-id="project-options">🧩 Project Options</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Let Students Choose One">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Let Students Choose One
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Scratch Band:</strong> Each sprite plays a different looped instrument.</li>
+<li><strong>Beatbox Machine:</strong> Click on different sprites to trigger different sounds.</li>
+<li><strong>Interactive Instrument:</strong> Press keys to play sounds with visual effects.</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="add-interactions-optional" class="level3">
+<h3 class="anchored" data-anchor-id="add-interactions-optional">🧠 Add Interactions (Optional)</h3>
+<pre><code>when this sprite clicked
+play sound [bass drum]</code></pre>
+<pre><code>when [space key] pressed
+start sound [loop beat]</code></pre>
+<p>Encourage layering: - Background beat with a <code>forever</code> loop - Click or key-activated melodies or effects</p>
+<hr>
+</section>
+<section id="creativity-prompts" class="level3">
+<h3 class="anchored" data-anchor-id="creativity-prompts">🛠️ Creativity Prompts</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Encourage Remixing">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Encourage Remixing
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>“What happens if two sounds play together?”</li>
+<li>“Can your sprite ‘dance’ while it plays music?”</li>
+<li>“Can you change costume when a sound plays?”</li>
+</ul>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/Lesson4Step3.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Stage 3 – Creative Projects</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="stage-4-the-scratch-sound-show-15-min" class="level2">
+<h2 class="anchored" data-anchor-id="stage-4-the-scratch-sound-show-15-min">🟡 Stage 4: The Scratch Sound Show (15 min)</h2>
+<p><strong>Purpose:</strong> Showcase student work in a structured but fun “performance” or “gallery walk.”</p>
+<section id="learning-objectives-3" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives-3">🎯 Learning Objectives</h3>
+<ul>
+<li>Reflect on creative choices through presentation.</li>
+<li>Celebrate student effort, experimentation, and rhythm.</li>
+<li>Practice giving and receiving positive peer feedback.</li>
+</ul>
+<hr>
+</section>
+<section id="presentation-options" class="level3">
+<h3 class="anchored" data-anchor-id="presentation-options">🎭 Presentation Options</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Option 1: Gallery Walk">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Option 1: Gallery Walk
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Students leave their projects open.</li>
+<li>Walk around and try each other’s Scratch sound machines.</li>
+<li>Use sticky notes or “clap if you like it” feedback.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Option 2: Stage Performance">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Option 2: Stage Performance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Select volunteers to plug in or present on the main screen.</li>
+<li>Introduce the performance: “Here’s my beat machine!”</li>
+<li>Play 30 seconds of each.</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="feedback-prompts" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-prompts">💬 Feedback Prompts</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Ask or Post Questions Like:">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ask or Post Questions Like:
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>“What sounds did you use?”</li>
+<li>“Did you use <code>repeat</code> or <code>forever</code>?”</li>
+<li>“What would you add next?”</li>
+<li>“What was the trickiest part?”</li>
+</ul>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/Lesson4Step4.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Stage 4 – Showcase</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="stage-5-reflection-wrap-up-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="stage-5-reflection-wrap-up-10-min">🟡 Stage 5: Reflection &amp; Wrap-Up (10 min)</h2>
+<p><strong>Purpose:</strong> Solidify learning and set up for next lesson.</p>
+<section id="learning-objectives-4" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives-4">🎯 Learning Objectives</h3>
+<ul>
+<li>Reflect on creative problem-solving with sound and timing.</li>
+<li>Recognize how coding builds skill through rhythm, logic, and iteration.</li>
+<li>End the session with pride, confidence, and anticipation.</li>
+</ul>
+<hr>
+</section>
+<section id="group-reflection" class="level3">
+<h3 class="anchored" data-anchor-id="group-reflection">🗣️ Group Reflection</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Ask the Class">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ask the Class
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>“What was your favorite sound or beat you made?”</li>
+<li>“What did your code do that surprised you?”</li>
+<li>“What was hard — and how did you solve it?”</li>
+<li>“Did someone else’s project inspire you?”</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="connect-to-mastery" class="level3">
+<h3 class="anchored" data-anchor-id="connect-to-mastery">🔁 Connect to Mastery</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Say This to the Class">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Say This to the Class
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Today you weren’t just clicking blocks — you were coding like musicians. You turned chaos into rhythm, sound into logic, and Scratch into your own instrument.”</p>
+<p>“You rehearsed. You adjusted. You made choices. That’s what real creators do — and it’s exactly how game makers, artists, and engineers work.”</p>
+<p>“Every sound you made today started with a blank screen. And now, it’s something only you could’ve made.”</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="next-step-game-designers-assemble" class="level3">
+<h3 class="anchored" data-anchor-id="next-step-game-designers-assemble">🚀 Next Step: Game Designers Assemble</h3>
+<blockquote class="blockquote">
+<p>“Next week, we move from shows to <strong>games</strong>. You’ll build something that reacts, scores, challenges, and wins. All the skills you’ve used today — loops, events, sound — will power your first real game.”</p>
+</blockquote>
+<hr>
+</section>
+<section id="optional-homework" class="level3">
+<h3 class="anchored" data-anchor-id="optional-homework">✏️ Optional Homework</h3>
+<p>Draw or describe your game idea: - What’s the goal? - What makes it fun? - What sounds or reactions does it have?</p>
+<p>::: Bring your idea next time — it’s time to <strong>code your first game.</strong> :::</p>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
