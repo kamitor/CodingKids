@@ -1,3 +1,4 @@
+---
 title: "Lesson 4: The Scratch Sound Show"
 format:
   html:
