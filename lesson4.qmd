@@ -2,8 +2,6 @@ title: "Lesson 4: The Scratch Sound Show"
 format:
   html:
     theme: cosmo
-    toc: true
-    number-sections: false
 ---
 
 # 🎵 Lesson 4: The Scratch Sound Show
@@ -242,8 +240,6 @@ Encourage layering:
 - “What would you add next?”
 - “What was the trickiest part?”
 :::
-
-![Stage 4 – Showcase](./images/Lesson4Step4.png){fig-align="center" width="60%"}
 
 
 ## 🟡 Stage 5: Reflection & Wrap-Up (10 min)
