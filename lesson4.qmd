@@ -48,19 +48,56 @@ Students will explore how to create rhythm and performance using Scratch sound b
 
 ---
 
-### 🎵 Echo Maestro Game
+### 🎵 Echo Maestro Spel
 
-::: {.callout-note title="Game Instructions"}
-1. One student (or teacher) is the **Maestro**.
-2. They create a short sound or rhythm (e.g. Clap–Clap–Stomp).
-3. The class repeats the pattern in sync.
-4. Swap Maestro every 2–3 rounds.
+::: {.callout-note title="Speluitleg"}
 
-**Explain afterward:**
-- “What happened when someone went off beat?”
-- “What made it easier to follow?”
-- “That's how our sprite feels if we forget timing in code.”
+**Voorbereiding:**
+
+- Laat de leerlingen in een kring staan of naast hun bureau.
+- Kies één leerling (of de leerkracht) als de **Echo Maestro**.
+
+**Spelregels:**
+
+1. De Maestro bedenkt een kort ritme met klappen, stampen, klikken of geluiden  
+   *(bijvoorbeeld: Klap – Klap – Pauze – Stamp)*.
+2. De rest van de klas luistert goed en **doet het ritme exact na**, in hetzelfde tempo.
+3. Als het goed gaat, maakt de Maestro het iets moeilijker  
+   *(sneller, extra klanken, onregelmatiger ritme)*.
+4. Als het fout gaat, herhaal of keer terug naar een eenvoudiger patroon.
+5. Na 2–3 rondes wordt een nieuwe Maestro gekozen.
+
+**Variaties:**
+
+- Gebruik klasmaterialen als instrumenten (potloden, tafels, blokjes).
+- Voeg bewegingen toe zoals zwaaien, buigen of draaien (sprite-achtige acties).
+- Gebruik klankwoorden (zoals *Boem – Tik – Plop*) en link deze aan Scratch-geluiden.
+
+**Praktische tips:**
+
+- Gebruik een hand omhoog of een ritmisch klapje om opnieuw te starten of tot stilte te komen.
+- Wijs eventueel een “ritmewachter” aan die helpt het tempo te bewaken.
+
 :::
+
+---
+
+### 🧠 Reflecteer met de Klas
+
+::: {.callout-tip title="Koppel aan Scratch-logica"}
+
+Stel vragen als:
+
+- “Wat gebeurde er als iemand uit de maat ging?”
+- “Was het moeilijker met een complexer ritme?”
+- “Wat hielp om het goed te doen?”
+
+Maak daarna de brug naar programmeren:
+
+> “In Scratch is het net zo. Als je geen `wacht`-blok gebruikt, loopt je geluid door elkaar heen. Maar als je een goede `lus` gebruikt met timing, dan werkt je sprite net als jullie – op ritme, met controle.”
+
+:::
+
 
 ---
 

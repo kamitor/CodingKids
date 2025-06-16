@@ -1,0 +1,217 @@
+---
+title: "Lesson 5: The Scratch Game Show"
+format:
+  html:
+    theme: cosmo
+---
+
+
+# 🎮 Les 5: Jullie Eerste Spel – Van Idee naar Teamproject
+
+**Thema:** *"Jij bent de ontwerper, je team is je studio, en ik help je het echt te maken."*
+
+
+## 🔁 Lesstructuur 
+
+| Fase | Wat doen we? | Rol van de leraar |
+|------|--------------|-------------------|
+| 1️⃣ | Spelverkenning | Spel demonstreren & bouwstenen bespreken |
+| 2️⃣ | Ideeën maken & stemmen | Laat kinderen stemmen, jij begeleidt keuzes |
+| 3️⃣ | Teams vormen & Comic tekenen | Jij checkt realiteit, stelt technisch bij |
+| 4️⃣ | Bouwen in Scratch | Jij helpt technische hobbels wegwerken |
+| 5️⃣ | Reflectie & Vooruitblik | Jij herkent groepswerk en ontwerpkwaliteit |
+
+
+## 🟡 Fase 1: Spelverkenning (10 min)
+
+*🎯 Doel:* Leerlingen leren herkennen wat een spel tot een spel maakt — door te kijken, te benoemen en te analyseren.
+
+
+### 🎮 Klassikale Start – Toon een spel
+
+Gebruik dit Scratch-project als demo:  
+🔗 [Whack-a-Mole – Scratch](https://scratch.mit.edu/projects/1033634931/)
+
+Laat één of twee kinderen het spel live spelen op het bord. Vraag de rest om goed te kijken.
+
+
+### 🔍 Analyseren met de klas
+
+Schrijf deze vier elementen op het bord:
+
+- 🎯 **Doel**  
+- ⏱️ **Tijd**  
+- 🧠 **Uitdaging**  
+- 📈 **Score**
+
+Stel per onderdeel klassikaal vragen:
+
+::: {.callout-note title="Gespreksvragen"}
+- “Wat moet je doen om te winnen?” *(Doel)*
+- “Hoe lang heb je?” *(Tijd)*
+- “Wat maakt het moeilijk?” *(Uitdaging)*
+- “Hoe weet je hoe goed je bent?” *(Score)*
+:::
+
+Laat leerlingen kort antwoorden geven. Schrijf een voorbeeld per element erbij op het bord.
+
+
+### 🧠 Inzicht: niet elk spel is gelijk
+
+Zeg:
+
+> “Een game is niet alleen iets op de computer. Het lijkt op een liedje of een sportwedstrijd: er zijn regels, een doel, en soms moet je snel zijn of nadenken.”
+
+Gebruik dit schema als voorbeeld:
+
+| 🌟 Bouwsteen | 🎲 Spel | 🎵 Muziek | ⚽ Sport |
+|--------------|--------|-----------|----------|
+| **Doel**     | Raak de mol | Speel een melodie | Scoor een doelpunt |
+| **Tijd**     | 30 seconden | Tempo of ritme | Wedstrijdduur |
+| **Uitdaging**| Mol beweegt snel | Moeilijke noten | Tegenstander blokkeert |
+| **Score**    | 1 punt per klik | Goed gespeeld zonder fouten | Eindstand |
+
+
+### 🧩 Overgang naar de volgende fase
+
+Zeg:
+
+> “Jullie hebben nu gezien wat een spel is en waar het uit bestaat.  
+> Nu gaan we zelf spellen verzinnen. Niet alleen spelen — maar echt ontwerpen!”
+
+## 🟡 Fase 2: Ideeën & Stemronde (10–15 min)
+
+🎯 Doel: Leerlingen leren denken als spelontwerpers. Ze formuleren een eenvoudig maar creatief spelidee en stemmen daarna op de leukste ideeën om in groepjes uit te werken.
+
+
+### ✍️ Stap 1 – Ontwerpkaart invullen
+
+Laat elk kind (of duo) de [OntwerpKaart.pdf] invullen.
+
+Vraag:
+- 🎮 *Titel van je spel*
+- 🎯 *Wat moet je doen om te winnen?*
+- 🧠 *Wat maakt het moeilijk?**
+- 📈 *Hoe weet je of je goed bezig bent?*
+
+Loop rond en stel hulpvragen:
+
+::: {.callout-tip title="Coachende vragen"}
+- “Wat wil je dat de speler voelt?”
+- “Wordt het spannend of grappig?”
+- “Kun je het straks echt bouwen in Scratch?”
+:::
+
+
+### 🗳️ Stap 2 – Stemronde
+
+Laat alle ingevulde kaarten zichtbaar neerleggen op tafels of tegen de muur.
+
+Iedere leerling krijgt *3 stemmen* (bijvoorbeeld met whiteboardstiften, stickertjes of streepjes).
+
+*Stemregels:*
+- Je mag op je eigen idee stemmen.
+- Maximaal 1 stem per kaart.
+- Je kiest een idee dat je *graag zou willen bouwen*.
+
+
+### 🧑‍🏫 Jouw rol als leerkracht
+
+- Moedig originele ideeën aan.
+- Let op: sommige spellen zijn té ingewikkeld (3D, multiplayer). Onthoud die voor fase 3.
+- Stimuleer kinderen om niet allemaal op hetzelfde idee te stemmen.
+
+
+### 🧑‍🎓 Groepen vormen
+
+Kies de 4–5 spellen met de meeste stemmen.
+
+- De bedenkers worden **teamleiders**.
+- Andere leerlingen kiezen zelf bij welk idee ze willen horen.
+
+Zeg erbij:
+
+> “Kies een spel dat jij tof vindt om te bouwen — niet alleen waar je vriendjes zitten!”
+
+
+> “Nu heb je een team, een idee én een plan. Tijd om het spel écht vorm te geven… als een stripverhaal!”
+
+
+
+### 🗳️ Stemmen (whiteboardmethode)
+
+1. Hang ideeën op de muur of leg ze op tafels.
+2. Iedereen krijgt 3 stickers of streepjes.
+3. Stem op je favoriete spellen.
+
+**Regels:**
+- Je mag op je eigen stemmen.
+- Max 3 stemmen per leerling.
+
+
+### 🧑‍🎓 Groepen maken
+
+- Kies de 4–5 spellen met de meeste stemmen.
+- De bedenkers worden automatisch **teamleiders**.
+- Andere leerlingen sluiten zich aan bij een spel waar ze graag aan mee willen doen.
+
+> “Kies niet per se je beste vriend — kies een idee dat jij leuk vindt om te bouwen!”
+
+
+## 🟡 Fase 3: Strip Je Spel (25 min)
+
+**🎯 Doel:** Als groep tekenen ze hun spel als stripverhaal. Jij als leraar grijpt hier in — waar nodig — om het ontwerp realistisch te maken.
+
+Gebruik [SpelAlsStripverhaal_Invulblad.pdf]
+
+### 👥 Taken in het team
+
+- 1 iemand tekent
+- 1 iemand schrijft
+- 1 iemand denkt na over de regels
+- Jij als leraar komt langs bij elk team en stelt bij:
+  - Wat kan realistisch binnen Scratch?
+  - Wat is te moeilijk? (3D, AI, multiplayer)
+  - Wat kan simpeler?
+
+> “Als jullie dit echt willen maken, wat is de simpelste versie die tóch leuk is?”
+
+
+## 🟡 Fase 4: Scratchbouw – Prototype (20–25 min)
+
+Laat elk team een **eerste versie** van hun spel bouwen.
+
+- Jij bent nu **technisch assistent**
+- Help alleen als ze vastlopen
+- Gebruik bestaande blokken: `wanneer sprite geklikt`, `verander score`, `voortdurend`, `ga naar willekeurige positie`, `if`, `timer`
+
+
+## 🟡 Fase 5: Reflectie & Credits (10 min)
+
+Laat de teams kort delen:
+
+- Wat was hun idee?
+- Wat werkte?
+- Wat moet nog beter?
+- Wat hebben ze geleerd van samenwerken?
+
+Laat iedereen de naam van zijn spelteam noteren en hang de stripverhalen op in het lokaal.
+
+
+## 📝 Materiaal
+
+- 📄 [Ontwerpkaart.pdf]
+- 🎬 [SpelAlsStripverhaal_Invulblad.pdf]
+- 🧻 Whiteboard of muur met plakband
+- 🔴 Stickers of stiften om te stemmen
+
+
+## 🧑‍🏫 Jouw rol als leraar
+
+| Moment | Wat jij doet |
+|--------|--------------|
+| Ideeën | Luisteren, stimuleren, samenvatten |
+| Stemmen | Organiseren, eerlijk houden |
+| Stripfase | Begeleiden, realistisch maken, technisch denken |
+| Scratchbouw | Debuggen, aanmoedigen, niet overnemen |
+| Reflectie | Erkenning geven voor creativiteit & samenwerking |

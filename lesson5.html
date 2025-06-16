@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lesson 5: The Scratch Game Show</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="lesson5_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lesson5_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="lesson5_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="lesson5_files/libs/quarto-html/popper.min.js"></script>
+<script src="lesson5_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="lesson5_files/libs/quarto-html/anchor.min.js"></script>
+<link href="lesson5_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lesson5_files/libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="lesson5_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="lesson5_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="lesson5_files/libs/bootstrap/bootstrap-4d5cdba1e59023d104418e560b599aaf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lesson 5: The Scratch Game Show</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="les-5-jullie-eerste-spel-van-idee-naar-teamproject" class="level1">
+<h1>🎮 Les 5: Jullie Eerste Spel – Van Idee naar Teamproject</h1>
+<p><strong>Thema:</strong> <em>“Jij bent de ontwerper, je team is je studio, en ik help je het echt te maken.”</em></p>
+<section id="lesstructuur" class="level2">
+<h2 class="anchored" data-anchor-id="lesstructuur">🔁 Lesstructuur</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 35%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fase</th>
+<th>Wat doen we?</th>
+<th>Rol van de leraar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1️⃣</td>
+<td>Spelverkenning</td>
+<td>Spel demonstreren &amp; bouwstenen bespreken</td>
+</tr>
+<tr class="even">
+<td>2️⃣</td>
+<td>Ideeën maken &amp; stemmen</td>
+<td>Laat kinderen stemmen, jij begeleidt keuzes</td>
+</tr>
+<tr class="odd">
+<td>3️⃣</td>
+<td>Teams vormen &amp; Comic tekenen</td>
+<td>Jij checkt realiteit, stelt technisch bij</td>
+</tr>
+<tr class="even">
+<td>4️⃣</td>
+<td>Bouwen in Scratch</td>
+<td>Jij helpt technische hobbels wegwerken</td>
+</tr>
+<tr class="odd">
+<td>5️⃣</td>
+<td>Reflectie &amp; Vooruitblik</td>
+<td>Jij herkent groepswerk en ontwerpkwaliteit</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fase-1-spelverkenning-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="fase-1-spelverkenning-10-min">🟡 Fase 1: Spelverkenning (10 min)</h2>
+<p><em>🎯 Doel:</em> Leerlingen leren herkennen wat een spel tot een spel maakt — door te kijken, te benoemen en te analyseren.</p>
+<section id="klassikale-start-toon-een-spel" class="level3">
+<h3 class="anchored" data-anchor-id="klassikale-start-toon-een-spel">🎮 Klassikale Start – Toon een spel</h3>
+<p>Gebruik dit Scratch-project als demo:<br>
+🔗 <a href="https://scratch.mit.edu/projects/1033634931/">Whack-a-Mole – Scratch</a></p>
+<p>Laat één of twee kinderen het spel live spelen op het bord. Vraag de rest om goed te kijken.</p>
+</section>
+<section id="analyseren-met-de-klas" class="level3">
+<h3 class="anchored" data-anchor-id="analyseren-met-de-klas">🔍 Analyseren met de klas</h3>
+<p>Schrijf deze vier elementen op het bord:</p>
+<ul>
+<li>🎯 <strong>Doel</strong><br>
+</li>
+<li>⏱️ <strong>Tijd</strong><br>
+</li>
+<li>🧠 <strong>Uitdaging</strong><br>
+</li>
+<li>📈 <strong>Score</strong></li>
+</ul>
+<p>Stel per onderdeel klassikaal vragen:</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Gespreksvragen">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Gespreksvragen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>“Wat moet je doen om te winnen?” <em>(Doel)</em></li>
+<li>“Hoe lang heb je?” <em>(Tijd)</em></li>
+<li>“Wat maakt het moeilijk?” <em>(Uitdaging)</em></li>
+<li>“Hoe weet je hoe goed je bent?” <em>(Score)</em></li>
+</ul>
+</div>
+</div>
+<p>Laat leerlingen kort antwoorden geven. Schrijf een voorbeeld per element erbij op het bord.</p>
+</section>
+<section id="inzicht-niet-elk-spel-is-gelijk" class="level3">
+<h3 class="anchored" data-anchor-id="inzicht-niet-elk-spel-is-gelijk">🧠 Inzicht: niet elk spel is gelijk</h3>
+<p>Zeg:</p>
+<blockquote class="blockquote">
+<p>“Een game is niet alleen iets op de computer. Het lijkt op een liedje of een sportwedstrijd: er zijn regels, een doel, en soms moet je snel zijn of nadenken.”</p>
+</blockquote>
+<p>Gebruik dit schema als voorbeeld:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 18%">
+<col style="width: 25%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>🌟 Bouwsteen</th>
+<th>🎲 Spel</th>
+<th>🎵 Muziek</th>
+<th>⚽ Sport</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Doel</strong></td>
+<td>Raak de mol</td>
+<td>Speel een melodie</td>
+<td>Scoor een doelpunt</td>
+</tr>
+<tr class="even">
+<td><strong>Tijd</strong></td>
+<td>30 seconden</td>
+<td>Tempo of ritme</td>
+<td>Wedstrijdduur</td>
+</tr>
+<tr class="odd">
+<td><strong>Uitdaging</strong></td>
+<td>Mol beweegt snel</td>
+<td>Moeilijke noten</td>
+<td>Tegenstander blokkeert</td>
+</tr>
+<tr class="even">
+<td><strong>Score</strong></td>
+<td>1 punt per klik</td>
+<td>Goed gespeeld zonder fouten</td>
+<td>Eindstand</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overgang-naar-de-volgende-fase" class="level3">
+<h3 class="anchored" data-anchor-id="overgang-naar-de-volgende-fase">🧩 Overgang naar de volgende fase</h3>
+<p>Zeg:</p>
+<blockquote class="blockquote">
+<p>“Jullie hebben nu gezien wat een spel is en waar het uit bestaat.<br>
+Nu gaan we zelf spellen verzinnen. Niet alleen spelen — maar echt ontwerpen!”</p>
+</blockquote>
+</section>
+</section>
+<section id="fase-2-ideeën-stemronde-1015-min" class="level2">
+<h2 class="anchored" data-anchor-id="fase-2-ideeën-stemronde-1015-min">🟡 Fase 2: Ideeën &amp; Stemronde (10–15 min)</h2>
+<p>🎯 Doel: Leerlingen leren denken als spelontwerpers. Ze formuleren een eenvoudig maar creatief spelidee en stemmen daarna op de leukste ideeën om in groepjes uit te werken.</p>
+<section id="stap-1-ontwerpkaart-invullen" class="level3">
+<h3 class="anchored" data-anchor-id="stap-1-ontwerpkaart-invullen">✍️ Stap 1 – Ontwerpkaart invullen</h3>
+<p>Laat elk kind (of duo) de [OntwerpKaart.pdf] invullen.</p>
+<p>Vraag: - 🎮 <em>Titel van je spel</em> - 🎯 <em>Wat moet je doen om te winnen?</em> - 🧠 *Wat maakt het moeilijk?** - 📈 <em>Hoe weet je of je goed bezig bent?</em></p>
+<p>Loop rond en stel hulpvragen:</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Coachende vragen">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Coachende vragen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>“Wat wil je dat de speler voelt?”</li>
+<li>“Wordt het spannend of grappig?”</li>
+<li>“Kun je het straks echt bouwen in Scratch?”</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="stap-2-stemronde" class="level3">
+<h3 class="anchored" data-anchor-id="stap-2-stemronde">🗳️ Stap 2 – Stemronde</h3>
+<p>Laat alle ingevulde kaarten zichtbaar neerleggen op tafels of tegen de muur.</p>
+<p>Iedere leerling krijgt <em>3 stemmen</em> (bijvoorbeeld met whiteboardstiften, stickertjes of streepjes).</p>
+<p><em>Stemregels:</em> - Je mag op je eigen idee stemmen. - Maximaal 1 stem per kaart. - Je kiest een idee dat je <em>graag zou willen bouwen</em>.</p>
+</section>
+<section id="jouw-rol-als-leerkracht" class="level3">
+<h3 class="anchored" data-anchor-id="jouw-rol-als-leerkracht">🧑‍🏫 Jouw rol als leerkracht</h3>
+<ul>
+<li>Moedig originele ideeën aan.</li>
+<li>Let op: sommige spellen zijn té ingewikkeld (3D, multiplayer). Onthoud die voor fase 3.</li>
+<li>Stimuleer kinderen om niet allemaal op hetzelfde idee te stemmen.</li>
+</ul>
+</section>
+<section id="groepen-vormen" class="level3">
+<h3 class="anchored" data-anchor-id="groepen-vormen">🧑‍🎓 Groepen vormen</h3>
+<p>Kies de 4–5 spellen met de meeste stemmen.</p>
+<ul>
+<li>De bedenkers worden <strong>teamleiders</strong>.</li>
+<li>Andere leerlingen kiezen zelf bij welk idee ze willen horen.</li>
+</ul>
+<p>Zeg erbij:</p>
+<blockquote class="blockquote">
+<p>“Kies een spel dat jij tof vindt om te bouwen — niet alleen waar je vriendjes zitten!”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Nu heb je een team, een idee én een plan. Tijd om het spel écht vorm te geven… als een stripverhaal!”</p>
+</blockquote>
+</section>
+<section id="stemmen-whiteboardmethode" class="level3">
+<h3 class="anchored" data-anchor-id="stemmen-whiteboardmethode">🗳️ Stemmen (whiteboardmethode)</h3>
+<ol type="1">
+<li>Hang ideeën op de muur of leg ze op tafels.</li>
+<li>Iedereen krijgt 3 stickers of streepjes.</li>
+<li>Stem op je favoriete spellen.</li>
+</ol>
+<p><strong>Regels:</strong> - Je mag op je eigen stemmen. - Max 3 stemmen per leerling.</p>
+</section>
+<section id="groepen-maken" class="level3">
+<h3 class="anchored" data-anchor-id="groepen-maken">🧑‍🎓 Groepen maken</h3>
+<ul>
+<li>Kies de 4–5 spellen met de meeste stemmen.</li>
+<li>De bedenkers worden automatisch <strong>teamleiders</strong>.</li>
+<li>Andere leerlingen sluiten zich aan bij een spel waar ze graag aan mee willen doen.</li>
+</ul>
+<blockquote class="blockquote">
+<p>“Kies niet per se je beste vriend — kies een idee dat jij leuk vindt om te bouwen!”</p>
+</blockquote>
+</section>
+</section>
+<section id="fase-3-strip-je-spel-25-min" class="level2">
+<h2 class="anchored" data-anchor-id="fase-3-strip-je-spel-25-min">🟡 Fase 3: Strip Je Spel (25 min)</h2>
+<p><strong>🎯 Doel:</strong> Als groep tekenen ze hun spel als stripverhaal. Jij als leraar grijpt hier in — waar nodig — om het ontwerp realistisch te maken.</p>
+<p>Gebruik [SpelAlsStripverhaal_Invulblad.pdf]</p>
+<section id="taken-in-het-team" class="level3">
+<h3 class="anchored" data-anchor-id="taken-in-het-team">👥 Taken in het team</h3>
+<ul>
+<li>1 iemand tekent</li>
+<li>1 iemand schrijft</li>
+<li>1 iemand denkt na over de regels</li>
+<li>Jij als leraar komt langs bij elk team en stelt bij:
+<ul>
+<li>Wat kan realistisch binnen Scratch?</li>
+<li>Wat is te moeilijk? (3D, AI, multiplayer)</li>
+<li>Wat kan simpeler?</li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p>“Als jullie dit echt willen maken, wat is de simpelste versie die tóch leuk is?”</p>
+</blockquote>
+</section>
+</section>
+<section id="fase-4-scratchbouw-prototype-2025-min" class="level2">
+<h2 class="anchored" data-anchor-id="fase-4-scratchbouw-prototype-2025-min">🟡 Fase 4: Scratchbouw – Prototype (20–25 min)</h2>
+<p>Laat elk team een <strong>eerste versie</strong> van hun spel bouwen.</p>
+<ul>
+<li>Jij bent nu <strong>technisch assistent</strong></li>
+<li>Help alleen als ze vastlopen</li>
+<li>Gebruik bestaande blokken: <code>wanneer sprite geklikt</code>, <code>verander score</code>, <code>voortdurend</code>, <code>ga naar willekeurige positie</code>, <code>if</code>, <code>timer</code></li>
+</ul>
+</section>
+<section id="fase-5-reflectie-credits-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="fase-5-reflectie-credits-10-min">🟡 Fase 5: Reflectie &amp; Credits (10 min)</h2>
+<p>Laat de teams kort delen:</p>
+<ul>
+<li>Wat was hun idee?</li>
+<li>Wat werkte?</li>
+<li>Wat moet nog beter?</li>
+<li>Wat hebben ze geleerd van samenwerken?</li>
+</ul>
+<p>Laat iedereen de naam van zijn spelteam noteren en hang de stripverhalen op in het lokaal.</p>
+</section>
+<section id="materiaal" class="level2">
+<h2 class="anchored" data-anchor-id="materiaal">📝 Materiaal</h2>
+<ul>
+<li>📄 [Ontwerpkaart.pdf]</li>
+<li>🎬 [SpelAlsStripverhaal_Invulblad.pdf]</li>
+<li>🧻 Whiteboard of muur met plakband</li>
+<li>🔴 Stickers of stiften om te stemmen</li>
+</ul>
+</section>
+<section id="jouw-rol-als-leraar" class="level2">
+<h2 class="anchored" data-anchor-id="jouw-rol-als-leraar">🧑‍🏫 Jouw rol als leraar</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Moment</th>
+<th>Wat jij doet</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ideeën</td>
+<td>Luisteren, stimuleren, samenvatten</td>
+</tr>
+<tr class="even">
+<td>Stemmen</td>
+<td>Organiseren, eerlijk houden</td>
+</tr>
+<tr class="odd">
+<td>Stripfase</td>
+<td>Begeleiden, realistisch maken, technisch denken</td>
+</tr>
+<tr class="even">
+<td>Scratchbouw</td>
+<td>Debuggen, aanmoedigen, niet overnemen</td>
+</tr>
+<tr class="odd">
+<td>Reflectie</td>
+<td>Erkenning geven voor creativiteit &amp; samenwerking</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
